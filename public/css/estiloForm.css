@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tarjeta {
+    width: 100%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100px;
+}
+
+.form-control {
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+    width: 80%;
+    margin: 10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color:  #EF5252;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    color: #333;
+    background-color: #B33939;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #EF5252;
+}
+
+.fondo-tarjeta {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 40px;
+    border: 2px solid #EF5252;
+    border-radius: 15px;
+}
+
